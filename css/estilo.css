@@ -1,0 +1,27 @@
+/* estilo.css */
+
+/* Ajustar el logo en el navbar */
+.logo-nav {
+    height: 50px;   /* Cambia el tamaño según necesites */
+    width: auto;    /* Mantiene proporción */
+    margin-right: 10px; /* Espacio entre logo y texto */
+}
+
+/* Opcional: centrar verticalmente el contenido de la navbar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    /* o imagen de fondo */
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.d-flex{
+    margin-left: auto;
+    margin-right: 50px;
+}
